@@ -1,5 +1,64 @@
 /* Help Center Style Overides */
+
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 15px;
+    margin-top: 40px;
+    color: #355852;
+}
+
+h1{
+    font-size:48px;
+}
+
+h2{
+    font-size:40px;
+}
+
+h3{
+    font-size:32px;
+}
+
+h4{
+    font-size:24px;
+}
+
+h5{
+    font-size:20px;
+}
+
+h6{
+    font-size:18px;
+}
+
+p{
+    font-weight: 100;
+}
+
 ul{
-    line-height:1.15 !important;
+    line-height: 1.75;
+    margin-bottom: 25px;
+}
+
+/* Custom lists */
+.custom-list{
+  list-style: outside none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.custom-list li{
+  padding-left: 20px;
+}
+.custom-list li:before{
+  font-family: arial, helvetica, sans-serif;
+  content: '';
+  position: relative;
+  float: left;
+  color: #fb9c1a;
+  text-indent: -20px;
+  speak: none;
+}
+
+.checkmark-heavy li:before {
+  content: '\2714';
 }
 
