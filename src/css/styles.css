@@ -1,40 +1,40 @@
 /* Help Center Style Overides */
 
-h1,h2,h3,h4,h5,h6{
+.markdown h1,h2,h3,h4,h5,h6{
     margin-bottom: 15px;
     margin-top: 40px;
     color: #355852;
 }
 
-h1{
+.markdown h1{
     font-size:48px;
 }
 
-h2{
+.markdown h2{
     font-size:40px;
 }
 
-h3{
+.markdown h3{
     font-size:32px;
 }
 
-h4{
+.markdown h4{
     font-size:24px;
 }
 
-h5{
+.markdown h5{
     font-size:20px;
 }
 
-h6{
+.markdown h6{
     font-size:18px;
 }
 
-p{
+.markdown p{
     font-weight: 100;
 }
 
-ul{
+.markdown ul{
     line-height: 1.75;
     margin-bottom: 25px;
 }
@@ -53,7 +53,7 @@ ul{
   content: '';
   position: relative;
   float: left;
-  color: #fb9c1a;
+  color: #355852;
   text-indent: -20px;
   speak: none;
 }
